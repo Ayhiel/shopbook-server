@@ -257,8 +257,8 @@
       "amount_paid": 29,
       "quantity": 1,
       "user": {
-        "name": "test",
-        "email": "test@example.com",
+        "name": "one",
+        "email": "one@example.com",
         "id": 1
       },
       "id": 1
@@ -266,9 +266,9 @@
   ],
   "users": [
     {
-      "email": "test@example.com",
-      "password": "$2a$10$8RypkQnTrGxLWefz2nv77u.nUXp2S2JtQVlTNFN33rhSRZidpw2CO",
-      "name": "test",
+      "email": "one@example.com",
+      "password": "$2a$10$lX3F.S.DfD6VuSrYp2e7dOhhB8SKhM5FUSoYwBxnvTCJOw0rpDUGO",
+      "name": "one",
       "id": 1
     }
   ]
