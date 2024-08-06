@@ -1,12 +1,12 @@
-import express from 'express';
-import jsonServer from 'json-server';
+import express from "express";
+import jsonServer from "json-server";
 import auth from "json-server-auth";
 
 const server = express();
 server.use((req, res, next) => {
-    res.header("Access-Control-Allow-Origin", "*");
-    res.header("Access-Control-Allow_Headers", "*");
-    next();
+    res.header('Access-Control-Allow-Origin', '*')
+    res.header('Access-Control-Allow-Headers', '*')
+    next()
 })
 
 const router = jsonServer.router('./data/db.json');
@@ -25,4 +25,5 @@ server.use(rules)
 server.use(auth)
 server.use(middlewares)
 server.use(router)
-server.listen(8000)
+
+server.listen(8000);
